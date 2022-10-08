@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "FermatShare",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}

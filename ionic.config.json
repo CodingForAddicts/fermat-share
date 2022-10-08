@@ -1,0 +1,8 @@
+{
+  "name": "FermatShare",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react",
+  "id": "7cc2e81a"
+}

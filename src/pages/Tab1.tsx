@@ -28,7 +28,7 @@ const Tab1: React.FC = () => {
         </IonToolbar>
       </IonHeader>
       <IonContent>
-        <IonCard button="true" href="https://www.instagram.com/fermat_share/">
+        <IonCard button=true href="https://www.instagram.com/fermat_share/">
           <IonCardHeader>
             <IonCardSubtitle>informations</IonCardSubtitle>
             <IonCardTitle>Version Alpha de FermatShare</IonCardTitle>

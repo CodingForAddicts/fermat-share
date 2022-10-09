@@ -22,6 +22,39 @@ const Tab2: React.FC = () => {
             Wisconsin Territory in 1836.
           </IonCardContent>
         </IonCard>
+        <IonCard>
+          <img src="./assets/madison.jpg" />
+          <IonCardHeader>
+            <IonCardSubtitle>foo</IonCardSubtitle>
+            <IonCardTitle>Foo</IonCardTitle>
+          </IonCardHeader>
+          <IonCardContent>
+            Founded in 1829 on an isthmus between Lake Monona and Lake Mendota, Madison was named the capital of the
+            Wisconsin Territory in 1836.
+          </IonCardContent>
+        </IonCard>
+        <IonCard>
+          <img src="./assets/madison.jpg" />
+          <IonCardHeader>
+            <IonCardSubtitle>foo</IonCardSubtitle>
+            <IonCardTitle>Foo</IonCardTitle>
+          </IonCardHeader>
+          <IonCardContent>
+            Founded in 1829 on an isthmus between Lake Monona and Lake Mendota, Madison was named the capital of the
+            Wisconsin Territory in 1836.
+          </IonCardContent>
+        </IonCard>
+        <IonCard>
+          <img src="./assets/madison.jpg" />
+          <IonCardHeader>
+            <IonCardSubtitle>foo</IonCardSubtitle>
+            <IonCardTitle>Foo</IonCardTitle>
+          </IonCardHeader>
+          <IonCardContent>
+            Founded in 1829 on an isthmus between Lake Monona and Lake Mendota, Madison was named the capital of the
+            Wisconsin Territory in 1836.
+          </IonCardContent>
+        </IonCard>
       </IonContent>
     </IonPage>
   );

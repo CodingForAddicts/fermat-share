@@ -40,9 +40,9 @@ const Tab1: React.FC = () => {
           </IonCardHeader>
    
           <IonCardContent> 
-            <a>C'est un espace de partage collaboratif</a>
-            <a>C'est un lieu d'entraide</a>
-            <a>C'est un moyen de s'améliorer</a>
+            C'est un espace de partage collaboratif -               
+            C'est un lieu d'entraide -          
+            C'est un moyen de s'améliorer                           
           </IonCardContent>
         </IonCard>
         

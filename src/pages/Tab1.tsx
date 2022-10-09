@@ -18,7 +18,7 @@ const Tab1: React.FC = () => {
         </IonToolbar>
       </IonHeader>
       
-      <IonContent fullscreen> //  mode fullscreen pour une meilleure optimisation
+      <IonContent fullscreen> // mode fullscreen pour une meilleure optimisation
         // Carte 1 : Notes de version + Compte de l'appli
         <IonCard button={true} href="https://www.instagram.com/fermat_share/"> //  Url du compte instagram du projet
           <IonCardHeader> // Tout ce qui concerne titre + Sous-titre

@@ -3,7 +3,7 @@ import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonCard, IonCardH
 import { IonCardTitle } from '@ionic/react';
 import { IonNav, IonNavLink, IonRouterOutlet } from '@ionic/react';
 import { Redirect, Route } from 'react-router-dom';
-import { wifi, wine } from 'ionicons/icons';
+import { wifi, wine, document, pencil, calculator, telescope, earth } from 'ionicons/icons';
 import Francais from './Francais';
 import Tab2 from './Tab2';
 
@@ -34,58 +34,56 @@ const Tab1: React.FC = () => {
             <IonCardSubtitle>Introduction</IonCardSubtitle>
             <IonCardTitle>Qu'est ce que le cloud ?</IonCardTitle>
           </IonCardHeader>
-          <IonNavLink routerDirection="forward" component={() => <Francais />}>
-            <IonButton>Go to Page Two</IonButton>
-          </IonNavLink>
+
         
           <IonCardContent>
             <p>C'est un espace de partage collaboratif</p>
             <p>C'est un lieu d'entraide</p>
             <p>C'est un moyen de s'améliorer</p>
             
-      </IonCardContent>
-      
-                
+            </IonCardContent>
+        </IonCard>
+      <IonCard>          
         <IonCardHeader>
           <IonCardTitle>Matières</IonCardTitle>
           
             <IonItem button href="./Francais">
-              <IonIcon icon={wifi} slot="start" />
+              <IonIcon icon={pencil} slot="start" />
               <IonLabel>Francais</IonLabel>
             </IonItem>
             
             <IonItem href="./Francais">
-              <IonIcon icon={wine} slot="start" />
+              <IonIcon icon={document} slot="start" />
               <IonLabel>Histoire</IonLabel>
             </IonItem>
           
             <IonItem href="./Francais" >
-              <IonIcon icon={wifi} slot="start" />
+              <IonIcon icon={telescope} slot="start" />
               <IonLabel>Physique</IonLabel>
             </IonItem>
           
           <IonItem href="#">
-            <IonIcon icon={wine} slot="start" />
+            <IonIcon icon={telescope} slot="start" />
             <IonLabel>Chimie</IonLabel>
           </IonItem>
           
           <IonItem href="#">
-            <IonIcon icon={wine} slot="start" />
+            <IonIcon icon={document} slot="start" />
             <IonLabel>SES</IonLabel>
           </IonItem>
           
           <IonItem href="#">
-            <IonIcon icon={wine} slot="start" />
+            <IonIcon icon={earth} slot="start" />
             <IonLabel>ES</IonLabel>
           </IonItem>
           
           <IonItem href="#">
-            <IonIcon icon={wine} slot="start" />
+            <IonIcon icon={document} slot="start" />
             <IonLabel>Anglais</IonLabel>
           </IonItem>
           
           <IonItem href="#">
-            <IonIcon icon={wine} slot="start" />
+            <IonIcon icon={document} slot="start" />
             <IonLabel>Espagnol</IonLabel>
           </IonItem>
           </IonCardHeader>

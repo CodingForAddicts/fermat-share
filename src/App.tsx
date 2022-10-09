@@ -69,7 +69,7 @@ const App: React.FC = () => (
           </Route>
         </IonRouterOutlet>
         
-        <IonTabBar [translucent]="true"  slot="bottom">
+        <IonTabBar translucent="true"  slot="bottom">
           
           <IonTabButton tab="tab1" href="/tab1">
             <IonIcon icon={cloud} />

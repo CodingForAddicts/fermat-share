@@ -45,7 +45,6 @@ const Tab2: React.FC = () => {
         </IonCard> 
         
         <IonCard button={true} href="https://fermatshare.ddns.net/index.php/apps/forms/4BeMJ6m7bboH2B6D">
-          <img src="./pictures/projects/tutorat-cover.png" /> 
           <IonCardHeader> 
             <IonCardSubtitle>Information</IonCardSubtitle>
             <IonCardTitle>Ajout de votre projet</IonCardTitle>

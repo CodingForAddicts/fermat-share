@@ -19,7 +19,6 @@ function Francais() {
 		  <IonButtons slot="start">
 			<IonBackButton></IonBackButton>
 		  </IonButtons>
-		  <IonTitle>Francais !</IonTitle>
 		</IonToolbar>
 	  </IonHeader>
 	  <IonContent>

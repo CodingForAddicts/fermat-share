@@ -14,8 +14,8 @@ const Tab2: React.FC = () => {
         <IonCard>
           <img src="./assets/madison.jpg" />
           <IonCardHeader>
-            <IonCardSubtitle>UNICEF</IonCardSubtitle>
-            <IonCardTitle>x Lycée Pierre de Fermat</IonCardTitle>
+            <IonCardSubtitle>Lycée Pierre de Fermat +</IonCardSubtitle>
+            <IonCardTitle>UNICEF</IonCardTitle>
           </IonCardHeader>
           <IonCardContent>
             Founded in 1829 on an isthmus between Lake Monona and Lake Mendota, Madison was named the capital of the

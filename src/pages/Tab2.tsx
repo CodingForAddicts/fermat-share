@@ -11,48 +11,14 @@ const Tab2: React.FC = () => {
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
-        <IonCard>
+        <IonCard button={true} href="https://instagram.com/unicef_fermat_?igshid=YmMyMTA2M2Y=">
           <img src="./assets/madison.jpg" />
           <IonCardHeader>
             <IonCardSubtitle>Lycée Pierre de Fermat +</IonCardSubtitle>
             <IonCardTitle>UNICEF</IonCardTitle>
           </IonCardHeader>
           <IonCardContent>
-            Founded in 1829 on an isthmus between Lake Monona and Lake Mendota, Madison was named the capital of the
-            Wisconsin Territory in 1836.
-          </IonCardContent>
-        </IonCard>
-        <IonCard>
-          <img src="./assets/madison.jpg" />
-          <IonCardHeader>
-            <IonCardSubtitle>foo</IonCardSubtitle>
-            <IonCardTitle>Foo</IonCardTitle>
-          </IonCardHeader>
-          <IonCardContent>
-            Founded in 1829 on an isthmus between Lake Monona and Lake Mendota, Madison was named the capital of the
-            Wisconsin Territory in 1836.
-          </IonCardContent>
-        </IonCard>
-        <IonCard>
-          <img src="./assets/madison.jpg" />
-          <IonCardHeader>
-            <IonCardSubtitle>foo</IonCardSubtitle>
-            <IonCardTitle>Foo</IonCardTitle>
-          </IonCardHeader>
-          <IonCardContent>
-            Founded in 1829 on an isthmus between Lake Monona and Lake Mendota, Madison was named the capital of the
-            Wisconsin Territory in 1836.
-          </IonCardContent>
-        </IonCard>
-        <IonCard>
-          <img src="./assets/madison.jpg" />
-          <IonCardHeader>
-            <IonCardSubtitle>foo</IonCardSubtitle>
-            <IonCardTitle>Foo</IonCardTitle>
-          </IonCardHeader>
-          <IonCardContent>
-            Founded in 1829 on an isthmus between Lake Monona and Lake Mendota, Madison was named the capital of the
-            Wisconsin Territory in 1836.
+            Unicef
           </IonCardContent>
         </IonCard>
       </IonContent>

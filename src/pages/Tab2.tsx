@@ -5,7 +5,7 @@ import './Tab2.css';
 const Tab2: React.FC = () => {
   return (
     <IonPage> 
-      <IonHeader collapse="condense"> 
+      <IonHeader> 
         <IonToolbar> 
           <IonTitle>100% made in Fermât</IonTitle>
         </IonToolbar>

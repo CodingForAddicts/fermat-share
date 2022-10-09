@@ -1,11 +1,7 @@
 import React from 'react';
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonCard, IonCardHeader, IonCardSubtitle,  IonCardContent, IonItem, IonIcon, IonLabel, IonButton } from '@ionic/react';
+import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonCard, IonCardHeader, IonCardSubtitle,  IonCardContent, IonItem, IonIcon, IonLabel } from '@ionic/react';
 import { IonCardTitle } from '@ionic/react';
-import { IonNav, IonNavLink, IonRouterOutlet } from '@ionic/react';
-import { Redirect, Route } from 'react-router-dom';
-import { wifi, wine, document, pencil, calculator, telescope, earth } from 'ionicons/icons';
-import Francais from './Francais';
-import Tab2 from './Tab2';
+import {  document, pencil, telescope, earth } from 'ionicons/icons';
 import './Tab1.css';
 
 

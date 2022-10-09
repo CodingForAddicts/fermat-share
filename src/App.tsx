@@ -1,5 +1,4 @@
 import { Redirect, Route } from 'react-router-dom';
-import { IonNav, IonNavLink } from '@ionic/react';
 import {
   IonApp,
   IonIcon,

@@ -11,7 +11,11 @@ const Tab2: React.FC = () => {
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
-   
+        <IonHeader collapse="condense"> 
+          <IonToolbar> 
+            <IonTitle size="large">100% made in Fermat</IonTitle>
+          </IonToolbar>
+        </IonHeader>
         <IonCard button={true} href="https://instagram.com/unicef_fermat_?igshid=YmMyMTA2M2Y=">
           <img src="./pictures/projects/unicef-cover.png" />
           <IonCardHeader> 

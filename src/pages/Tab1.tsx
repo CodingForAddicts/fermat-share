@@ -19,7 +19,11 @@ const Tab1: React.FC = () => {
       </IonHeader>
       
       <IonContent fullscreen> 
-      
+      <IonHeader collapse="condense">
+        <IonToolbar> 
+          <IonTitle size="large">Cloud</IonTitle>
+        </IonToolbar>
+      </IonHeader>
         <IonCard button={true} href="https://www.instagram.com/fermat_share/">
           <IonCardHeader> 
             <IonCardSubtitle>informations</IonCardSubtitle>

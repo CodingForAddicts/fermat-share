@@ -28,7 +28,17 @@ const Tab1: React.FC = () => {
         </IonToolbar>
       </IonHeader>
       <IonContent>
-        
+        <IonCard button="true" href="https://www.instagram.com/fermat_share/">
+          <IonCardHeader>
+            <IonCardSubtitle>informations</IonCardSubtitle>
+            <IonCardTitle>Version Alpha de FermatShare</IonCardTitle>
+            
+          </IonCardHeader>
+          <IonCardContent>
+            Vous avez intallé FermatShare ! Bravo. Cette version de FermatShare n'est absolument pas définitive et subira de multiples mise à jour. Si vous rencontrez un bug, n'hésitez pas à le signaler sur le compte instagram de l'appli !
+          
+          </IonCardContent>
+        </IonCard>
         <IonCard>
           <IonCardHeader>
             <IonCardSubtitle>Introduction</IonCardSubtitle>

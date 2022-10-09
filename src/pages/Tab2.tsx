@@ -19,7 +19,7 @@ const Tab2: React.FC = () => {
           </IonCardHeader>
           <IonCardContent>
             Sensibilisation des élèves au sein du lycée (mise en place d'un stand spécial Unicef); 
-            Conjonction avec le club écodélégation pour (> combattre le changement climatique; 
+            Conjonction avec le club écodélégation pour combattre le changement climatique; 
             Vente de roses pour la saint valentin et versement de l'argent collecté à l'Unicef; 
             Sorties visant à sensibiliser les élèves aux cause défendues par l'organisation ( cinéma, conférence.) ;
             Tout autre projet sera retenu ! Que vous soyez membre ou pas ! ;

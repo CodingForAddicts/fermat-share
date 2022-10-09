@@ -12,13 +12,18 @@ const Tab2: React.FC = () => {
       </IonHeader>
       <IonContent fullscreen>
         <IonCard button={true} href="https://instagram.com/unicef_fermat_?igshid=YmMyMTA2M2Y=">
-          <img src="./assets/madison.jpg" />
+          <img src="./pictures/projects/unicef-cover.png" />
           <IonCardHeader>
             <IonCardSubtitle>Lycée Pierre de Fermat +</IonCardSubtitle>
             <IonCardTitle>UNICEF</IonCardTitle>
           </IonCardHeader>
           <IonCardContent>
-            Unicef
+            Sensibilisation des élèves au sein du lycée (mise en place d'un stand spécial Unicef); 
+            Conjonction avec le club écodélégation pour (> combattre le changement climatique; 
+            Vente de roses pour la saint valentin et versement de l'argent collecté à l'Unicef; 
+            Sorties visant à sensibiliser les élèves aux cause défendues par l'organisation ( cinéma, conférence.) ;
+            Tout autre projet sera retenu ! Que vous soyez membre ou pas ! ;
+            Proposez vos idées en tapant (bien fort) sur cette carte !!!!
           </IonCardContent>
         </IonCard>
       </IonContent>

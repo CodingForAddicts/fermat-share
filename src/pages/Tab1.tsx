@@ -5,8 +5,8 @@ import {  document, pencil, calculator, language, telescope, earth, hourglass, r
 import './Tab1.css';
 
 
-// Get the Frontend API from the environment
-const frontendApi = process.env.REACT_APP_CLERK_FRONTEND_API;
+
+
 
 const Tab1: React.FC = () => {
   return (

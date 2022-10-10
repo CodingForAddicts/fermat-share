@@ -65,23 +65,28 @@ const Tab1: React.FC = () => {
                 <IonIcon icon={receipt} slot="start" />
               <IonLabel>Francais</IonLabel>
             </IonItem>
+            
+            <IonItem href="./HLP">
+              <IonIcon icon={pencil} slot="start" />
+              <IonLabel>HLP</IonLabel>
+            </IonItem>
          
-            <IonItem href="./Francais">
+            <IonItem href="./Histoire">
               <IonIcon icon={hourglass} slot="start" />
               <IonLabel>Histoire</IonLabel>
             </IonItem>
             
-            <IonItem href="./Francais" >
+            <IonItem href="./Maths" >
               <IonIcon icon={calculator} slot="start" />
               <IonLabel>Maths</IonLabel>
             </IonItem>
           
-            <IonItem href="./Francais" >
+            <IonItem href="./spé Physique" >
               <IonIcon icon={telescope} slot="start" />
               <IonLabel>Physique</IonLabel>
             </IonItem>
           
-            <IonItem href="#">
+            <IonItem href="./spé Physique">
               <IonIcon icon={logoReact} slot="start" />
               <IonLabel>Chimie</IonLabel>
             </IonItem>
@@ -96,17 +101,17 @@ const Tab1: React.FC = () => {
               <IonLabel>ES</IonLabel>
             </IonItem>
           
-            <IonItem href="#">
+            <IonItem href="./Anglais">
               <IonIcon icon={language} slot="start" />
               <IonLabel>Anglais</IonLabel>
             </IonItem>
          
-            <IonItem href="#">
+            <IonItem href="./Espagnol">
               <IonIcon icon={language} slot="start" />
               <IonLabel>Espagnol</IonLabel>
             </IonItem>
             
-            <IonItem href="#">
+            <IonItem href="./Allemand">
               <IonIcon icon={language} slot="start" />
               <IonLabel>Allemand</IonLabel>
             </IonItem>

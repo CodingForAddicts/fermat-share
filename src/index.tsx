@@ -21,14 +21,8 @@ root.render(
   
   <React.StrictMode>
     
-    <ClerkProvider frontendApi="clerk.stylo.social">
-   <SignedIn>
+    
       <App/>
-    </SignedIn>
-    <SignedOut>
-      <RedirectToSignIn />
-    </SignedOut>
-    </ClerkProvider>
     
   </React.StrictMode>
 );

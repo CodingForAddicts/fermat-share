@@ -1,7 +1,7 @@
 import React from 'react';
 import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonCard, IonCardHeader, IonCardSubtitle,  IonCardContent, IonItem, IonIcon, IonLabel } from '@ionic/react';
 import { IonCardTitle } from '@ionic/react';
-import {  document, pencil, telescope, earth } from 'ionicons/icons';
+import {  document, pencil, calculator, language, telescope, earth, hourglass, receipt, cash, logoReact } from 'ionicons/icons';
 import './Tab1.css';
 
 
@@ -52,13 +52,18 @@ const Tab1: React.FC = () => {
           </IonCardHeader>  
           
               <IonItem button href="./Francais">
-                <IonIcon icon={pencil} slot="start" />
+                <IonIcon icon={receipt} slot="start" />
               <IonLabel>Francais</IonLabel>
             </IonItem>
          
             <IonItem href="./Francais">
-              <IonIcon icon={document} slot="start" />
+              <IonIcon icon={hourglass} slot="start" />
               <IonLabel>Histoire</IonLabel>
+            </IonItem>
+            
+            <IonItem href="./Francais" >
+              <IonIcon icon={calculator} slot="start" />
+              <IonLabel>Maths</IonLabel>
             </IonItem>
           
             <IonItem href="./Francais" >
@@ -67,12 +72,12 @@ const Tab1: React.FC = () => {
             </IonItem>
           
             <IonItem href="#">
-              <IonIcon icon={telescope} slot="start" />
+              <IonIcon icon={logoReact} slot="start" />
               <IonLabel>Chimie</IonLabel>
             </IonItem>
          
             <IonItem href="#">
-              <IonIcon icon={document} slot="start" />
+              <IonIcon icon={cash} slot="start" />
               <IonLabel>SES</IonLabel>
             </IonItem>
            
@@ -82,13 +87,18 @@ const Tab1: React.FC = () => {
             </IonItem>
           
             <IonItem href="#">
-              <IonIcon icon={document} slot="start" />
+              <IonIcon icon={language} slot="start" />
               <IonLabel>Anglais</IonLabel>
             </IonItem>
          
             <IonItem href="#">
-              <IonIcon icon={document} slot="start" />
+              <IonIcon icon={language} slot="start" />
               <IonLabel>Espagnol</IonLabel>
+            </IonItem>
+            
+            <IonItem href="#">
+              <IonIcon icon={language} slot="start" />
+              <IonLabel>Allemand</IonLabel>
             </IonItem>
           
         </IonCard>

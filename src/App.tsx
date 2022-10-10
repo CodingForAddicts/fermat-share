@@ -78,10 +78,6 @@ const App: React.FC = () => (
             <IonIcon icon={rocket} />
             <IonLabel>Projets</IonLabel>
           </IonTabButton>
-          <IonTabButton tab="tab3" href="/tab3">
-            <IonIcon icon={ellipse} />
-            <IonLabel>à venir</IonLabel>
-          </IonTabButton>
           
         </IonTabBar>
         

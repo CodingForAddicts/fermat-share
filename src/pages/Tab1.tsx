@@ -3,14 +3,7 @@ import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonCard, IonCardH
 import { IonCardTitle } from '@ionic/react';
 import {  document, pencil, calculator, language, telescope, earth, hourglass, receipt, cash, logoReact } from 'ionicons/icons';
 import './Tab1.css';
-import {
-  ClerkProvider,
-  SignedIn,
-  SignedOut,
-  UserButton,
-  useUser,
-  RedirectToSignIn,
-} from "@clerk/clerk-react";
+
 
 // Get the Frontend API from the environment
 const frontendApi = process.env.REACT_APP_CLERK_FRONTEND_API;

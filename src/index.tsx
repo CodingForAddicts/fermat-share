@@ -1,20 +1,14 @@
 import React from 'react';
 import { createRoot } from 'react-dom/client';
 import App from './App';
-import { ClerkProvider } from "@clerk/clerk-react";
-import {
-  SignedIn,
-  SignedOut,
-  UserButton,
-  useUser,
-  RedirectToSignIn,
-} from "@clerk/clerk-react";
+
+
 
 
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
 
-const frontendApi = process.env.REACT_APP_CLERK_FRONTEND_API;
+
 const container = document.getElementById('root');
 const root = createRoot(container!);
 root.render(

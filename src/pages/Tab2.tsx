@@ -7,7 +7,7 @@ const Tab2: React.FC = () => {
     <IonPage> 
       <IonHeader> 
         <IonToolbar> 
-          <IonTitle>100% made in Fermât</IonTitle>
+          <IonTitle>100% made in Fermat</IonTitle>
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>

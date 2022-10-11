@@ -3,12 +3,12 @@ import {
 } from '@ionic/react';
 
 
-function Francais() {
+function HLP() {
   return (
 	  <IonContent> 
-		<iframe src="https://fermatshare.ddns.net/index.php/s/a9bKAjAFL7kQp3H" width="100%" height="100%" frameBorder="0"></iframe> 
+		<iframe src="https://fermatshare.ddns.net/index.php/s/NfStL97GxG9BDYa" width="100%" height="100%" frameBorder="0"></iframe> 
 	  </IonContent>
   );
 }
 
-export default Francais;
+export default HLP;

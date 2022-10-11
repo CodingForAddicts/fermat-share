@@ -15,6 +15,15 @@ import Tab1 from './pages/Tab1';
 import Tab2 from './pages/Tab2';
 import Tab3 from './pages/Tab3';
 import Francais from './pages/Francais';
+import Allemand from './pages/Allemand';
+import Espagnol from './pages/Espagnol';
+import Geographie from './pages/géographie';
+import Histoire from './pages/Histoire';
+import Anglais from './pages/Anglais';
+import Spemat from './pages/Maths';
+import Spepy from './pages/spé Physique';
+import HLP from './pages/HLP';
+
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -54,6 +63,30 @@ const App: React.FC = () => (
           </Route>
           <Route exact path="/Francais">
             <Francais />
+          </Route>
+          <Route exact path="/Allemand">
+            <Allemand />
+          </Route>
+          <Route exact path="/Espagnol">
+            <Espagnol />
+          </Route>
+          <Route exact path="/Anglais">
+            <Anglais />
+          </Route>
+          <Route exact path="/Maths">
+            <Spemat />
+          </Route>
+          <Route exact path="/spé Physique">
+            <Spepy />
+          </Route>
+          <Route exact path="/HLP">
+            <HLP />
+          </Route>
+          <Route exact path="/géographie">
+            <Geographie />
+          </Route>
+          <Route exact path="/Histoire">
+            <Histoire />
           </Route>
           <Route exact path="/tab2">
             <Tab2 />

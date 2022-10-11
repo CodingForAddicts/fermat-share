@@ -3,7 +3,7 @@ import {
 } from '@ionic/react';
 
 
-function spe_py() {
+function Spepy() {
   return (
 	  <IonContent> 
 		<iframe src="https://fermatshare.ddns.net/index.php/s/57eMMZmDam4DcFF" width="100%" height="100%" frameBorder="0"></iframe> 
@@ -11,4 +11,4 @@ function spe_py() {
   );
 }
 
-export default spe_py;
+export default Spepy;

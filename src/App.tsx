@@ -61,11 +61,11 @@ const App: React.FC = () => (
           <Route exact path="/tab1">
             <Tab1 />
           </Route>
-          <Route exact path="/Francais">
-            <Francais />
-          </Route>
           <Route exact path="/Allemand">
             <Allemand />
+          </Route>
+          <Route exact path="/Francais">
+            <Francais />
           </Route>
           <Route exact path="/Espagnol">
             <Espagnol />

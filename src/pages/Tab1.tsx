@@ -1,8 +1,10 @@
 import React from 'react';
-import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonCard, IonCardHeader, IonCardSubtitle,  IonCardContent, IonItem, IonIcon, IonLabel } from '@ionic/react';
+import { IonContent, IonHeader, IonPage, IonTitle, IonToolbar, IonCard, IonCardHeader, IonCardSubtitle,  IonRouterOutlet, IonCardContent, IonItem, IonIcon, IonLabel } from '@ionic/react';
 import { IonCardTitle } from '@ionic/react';
 import {  document, pencil, calculator, language, telescope, earth, hourglass, receipt, cash, logoReact } from 'ionicons/icons';
 import './Tab1.css';
+import { Redirect, Route } from 'react-router-dom';
+import Francais from './Francais'
 
 
 
@@ -11,6 +13,7 @@ import './Tab1.css';
 const Tab1: React.FC = () => {
   return (
     <IonPage> 
+      
       <IonHeader>
         <IonToolbar> 
           <IonTitle>Cloud</IonTitle>
